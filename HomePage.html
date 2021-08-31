@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML Course
+    </title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        HTML Course
+    </h1>
+    <img src="htnbay.png" width="100" height="100">
+    <h2>Course Description</h2>
+    <p>
+        HTML (HyperText Markup Language) is the most basic building block of the Web.
+        It defines the meaning and structure of web content. Other technologies besides HTML are
+        generally used to describe a web page's appearance/presentation (CSS) or
+        functionality/behavior (JavaScript).
+    </p>
+    <p>"Hypertext" refers to links that connect web pages to one another, either
+        within a single website or between websites.
+        Links are a fundamental aspect of the Web.
+        By uploading content to the Internet and linking it to pages created by
+        other people, you become an active participant in the World Wide Web.
+    </p><br>
+    <p><b>Lectures date:</b><br>
+        From 8:00<sub>am</sub> to 11:00<sub>am</sub>
+    </p>
+    <p>
+        <b>Levels for this course:</b><br>
+        1<sup>st</sup> Level: Html basics<br>
+        2<sup>st</sup> Level: advanced concepts in html
+    </p>
+    <hr>
+    <h2>Objectives of this course</h2>
+    <ol type="I">
+        <li>Understand the concept of html</li>
+        <li>Learn each Tag and its purpose</li>
+        <li>Ways to add text, videos, and other usual content in web pages</li>
+    </ol>
+    <h2>Requirements for this course</h2>
+    <ul type="circle">
+        <li>Computer</li>
+        <li>Text editor</li>
+        <li>Browser (Safari, Google Chrome)</li>
+    </ul>
+    <p>
+        For reference click <a href="https://www.w3schools.com/html/html_intro.asp">here</a>
+    </p>
+
+    <video width="550" height="350" controls>
+        <source src="intro.mp4" type="video/mp4">
+    </video><br>
+    <br>
+    <audio controls>
+        <source src="spark.mp3" type="audio/mp3">
+    </audio><br><br>
+
+    <table>
+        <caption>Lecture schedule</caption>
+        <tr>
+            <th>Day</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Sunday and Monday</td>
+            <td>Class A</td>
+        </tr>
+        <tr>
+            <td>Tuesday and Wednesday</td>
+            <td>Class B</td>
+        </tr>
+        <tr>
+            <td colspan="2">thursday remote education</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Course enrollment form</h2>
+    <form>
+        <label for="user">Username:</label>
+        <input type="text" id="user">
+        <p>Gender: </p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label><br>
+
+        <p>Where did you hear about HTML?</p>
+        <input type="checkbox" id="friend">
+        <label for="friend">Friend</label><br>
+        <input type="checkbox" id="books">
+        <label for="books">Books</label><br>
+        <input type="checkbox" id="social media">
+        <label for="social media">Social media</label><br><br>
+
+        <label for="City">Choose your city: </label>
+        <select id="City">
+            <option value="Riyadh">Riyadh</option>
+            <option value="Jeddah">Jeddah</option>
+            <option value="Dammam">Dammam</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
